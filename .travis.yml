@@ -26,7 +26,7 @@ matrix:
       sudo: required
       compiler: gcc
       addons: *linuxaddons
-     - env: CONF="--enable-gst"
+    - env: CONF="--enable-gst"
       os: linux
       arch: arm64-graviton2
       virt: lxd
